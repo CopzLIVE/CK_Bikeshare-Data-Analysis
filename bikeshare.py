@@ -42,7 +42,7 @@ def get_filters():
         if day in days:
             break
         else:
-            print('Please enter a valid day')
+            print('Please enter a valid day.')
 
     print('-'*40)
     return city, month, day
