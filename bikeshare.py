@@ -198,6 +198,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
     
+# Use descriptive statistics to answer questions about the data.
 def individual_data(df):       
     start_data = 0
     end_data = 5
